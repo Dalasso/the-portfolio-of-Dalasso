@@ -170,3 +170,6 @@
 		transform: rotate(45deg) translateY(5px);
 	}
 }
+.carousel-inner {
+	height: 1000px;
+}
