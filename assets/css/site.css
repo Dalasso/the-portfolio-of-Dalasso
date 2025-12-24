@@ -157,6 +157,7 @@ h3 {
 	font-weight: 700;
 	line-height: var(--line-height-xl);
 	font-size: var(--text-xl);
+	color: #ffffff;
 	margin: var(--space-6) 0 var(--space-2);
 }
 
