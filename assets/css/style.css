@@ -239,7 +239,7 @@ a {
 	left: 0;
 	right: 0;
 	z-index: 100;
-	background: rgba(15, 15, 15, 0.9);
+	background: rgba(27, 1, 48, 0.9);
 	backdrop-filter: blur(10px);
 	padding: var(--space-md) 0;
 }
@@ -254,7 +254,7 @@ a {
 
 .nav-logo {
 	font-size: var(--text-xl);
-	font-weight: 700;
+	font-weight: 1000;
 }
 
 .nav-links {
@@ -277,6 +277,7 @@ a {
    5. Hero Section
    -------------------------------------------------------------------------- */
 .hero {
+	background-color: #eb7100;
 	position: relative;
 }
 
@@ -538,7 +539,11 @@ a {
 /* --------------------------------------------------------------------------
    8. Projects Section
    -------------------------------------------------------------------------- */
-.projects-grid {
+.projects {
+	background-color: #eb7100;
+}
+
+   .projects-grid {
 	display: grid;
 	gap: var(--space-lg);
 }
@@ -556,7 +561,7 @@ a {
 }
 
 .project-card {
-	background: var(--color-bg-alt);
+	background-color: #290b4b;
 	border-radius: 16px;
 	overflow: hidden;
 	transition: transform 0.3s, box-shadow 0.3s;
@@ -588,6 +593,7 @@ a {
 }
 
 .project-content h3 {
+	color: white;
 	font-size: var(--text-lg);
 	margin-bottom: var(--space-sm);
 }
@@ -616,7 +622,7 @@ a {
    9. Contact Section
    -------------------------------------------------------------------------- */
 .contact {
-	background: var(--color-bg-alt);
+	background-color:#290b4b;
 	text-align: center;
 }
 
